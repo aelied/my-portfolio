@@ -303,7 +303,7 @@ export default function Portfolio() {
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="min-h-screen flex items-center px-6 pt-24 pb-12 relative overflow-hidden bg-gradient-to-br from-white to-pink-50">
+      <section id="home" className="min-h-screen flex items-center px-6 pt-32 md:pt-24 pb-12 relative overflow-hidden bg-gradient-to-br from-white to-pink-50">
         {/* Subtle decorative elements */}
         <div className="absolute top-40 right-10 w-72 h-72 bg-pink-100 rounded-full blur-3xl opacity-30 animate-fade-in delay-300"></div>
         <div className="absolute bottom-40 left-10 w-80 h-80 bg-pink-50 rounded-full blur-3xl opacity-40 animate-fade-in delay-500"></div>

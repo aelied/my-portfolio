@@ -345,7 +345,7 @@ export default function Portfolio() {
               <div className="relative w-80 h-96 bg-white rounded-2xl shadow-xl overflow-hidden border-4 border-pink-200">
                 <div className="w-full h-full bg-gradient-to-br from-pink-50 to-white flex items-center justify-center">
                   <img 
-                    src="/hero-banner.jpg"
+                    src="/hero-banner1.jpg"
                     alt="Profile"
                     className="w-full h-full object-cover"
                   />

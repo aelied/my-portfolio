@@ -680,18 +680,60 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="bg-pink-400 text-white py-12 px-6">
         <div className="max-w-6xl mx-auto text-center">
-          <div className="text-3xl font-bold mb-4">Ysa</div>
-          <p className="mb-6">Building digital experiences that make a difference</p>
+
+          {/* Logo */}
+          <img
+            src="/projects/ysa-logo2.png"
+            alt="Ysa logo"
+            className="h-20 w-auto mb-6 mx-auto transition-transform duration-300 hover:scale-110"
+            style={{ transformOrigin: "center" }}
+          />
+
+          {/* Tagline */}
+          <p className="mb-6 text-lg font-medium">
+            Building digital experiences that make a difference
+          </p>
+
+          {/* Social icons */}
           <div className="flex justify-center gap-6 mb-6">
-            <a href="https://www.facebook.com/aeliedd" target="_blank" rel="noopener noreferrer"> 
-            <Facebook size={24} className="hover:scale-110 transition-transform cursor-pointer" />
+            <a
+              href="https://www.facebook.com/aeliedd"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Facebook
+                size={24}
+                className="hover:scale-125 transition-transform cursor-pointer"
+              />
             </a>
-            <a href="https://www.instagram.com/aeliedd/" target="_blank" rel="noopener noreferrer"> 
-            <Instagram size={24} className="hover:scale-110 transition-transform cursor-pointer" /></a>
-            <a href="https://github.com/aelied" target="_blank" rel="noopener noreferrer"> 
-            <Github size={24} className="hover:scale-110 transition-transform cursor-pointer" /></a>
+
+            <a
+              href="https://www.instagram.com/aeliedd/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Instagram
+                size={24}
+                className="hover:scale-125 transition-transform cursor-pointer"
+              />
+            </a>
+
+            <a
+              href="https://github.com/aelied"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Github
+                size={24}
+                className="hover:scale-125 transition-transform cursor-pointer"
+              />
+            </a>
           </div>
-          <p className="text-pink-100">© 2025 Ysa. Built with React, TailwindCSS & shadcn/UI</p>
+
+          {/* Copyright */}
+          <p className="text-pink-100 text-sm">
+            © 2025 Ysa. Built with React, TailwindCSS & shadcn/UI
+          </p>
         </div>
       </footer>
     </div>
